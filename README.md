@@ -1,4 +1,4 @@
-# tmux-basics-notes
+# TMux Basics (Notes)
 Short Notes &amp; Quick Reference on TMux (Terminal Multiplexer)
 
 ## Source of these Notes: 
