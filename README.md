@@ -1,6 +1,36 @@
 # TMux Basics (Notes)
 Short Notes &amp; Quick Reference on TMux (Terminal Multiplexer)
 
+## Contents
+- [TMux Basics (Notes)](#tmux-basics--notes-)
+  * [Source of these Notes:](#source-of-these-notes-)
+  * [Tmux cheetsheet:](#tmux-cheetsheet-)
+  * [Installing TMux on Mac(Using Homebrew):](#installing-tmux-on-mac-using-homebrew--)
+  * [Installing TMux on Mac(Without Homebrew):](#installing-tmux-on-mac-without-homebrew--)
+  * [TMux Github Page:](#tmux-github-page-)
+  * [Advantages of Tmux:](#advantages-of-tmux-)
+  * [Starting TMux:](#starting-tmux-)
+  * [Killing (Closing) TMux session:](#killing--closing--tmux-session-)
+  * [The `<ctrl-b>` prefix:](#the---ctrl-b---prefix-)
+    + [Open a Window Pane (Similar to Windows in Vim):](#open-a-window-pane--similar-to-windows-in-vim--)
+    + [Focusing on One Pane (Zooming/Fullscreen):](#focusing-on-one-pane--zooming-fullscreen--)
+    + [Switching Between Panes:](#switching-between-panes-)
+    + [Resizing the Current Pane:](#resizing-the-current-pane-)
+    + [Open a Tab:](#open-a-tab-)
+    + [Moving Between Tabs:](#moving-between-tabs-)
+    + [Close/Kill a Window(Tab):](#close-kill-a-window-tab--)
+    + [Renaming a Window(Tab):](#renaming-a-window-tab--)
+  * [TMux Sessions:](#tmux-sessions-)
+    + [Listing All the Sessions:](#listing-all-the-sessions-)
+    + [Renaming a Tmux session:](#renaming-a-tmux-session-)
+    + [Re-attaching(resume) a background tmux session:](#re-attaching-resume--a-background-tmux-session-)
+    + [Detach(close) a tmux session:](#detach-close--a-tmux-session-)
+    + [Switching between Tmux Sessions (Tmux terminals):](#switching-between-tmux-sessions--tmux-terminals--)
+    + [Killing(Delete) a Tmux Session/Terminal:](#killing-delete--a-tmux-session-terminal-)
+  * [Creating a tmux "configuration" file:](#creating-a-tmux--configuration--file-)
+    + [Changing the prefix and adding shortcuts(key bindings) to the `.tmux.conf` file:](#changing-the-prefix-and-adding-shortcuts-key-bindings--to-the--tmuxconf--file-)
+
+
 ## Source of these Notes: 
 
 https://www.youtube.com/watch?v=rc-v6eHdaN4&list=PLbkWnfz63JbWlZSq964DCMW64dM06_qht&index=3#t=44.909563)
